@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>디지털퍼블리싱첫과제</title>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Yeon+Sung" rel="stylesheet">
+	<style>
+		html{font-family: 'Noto Sans KR', sans-serif;
+			font-family: 'Noto Serif KR', serif;} /*문서전체적용*/
+		.wrap{width: 400px; background: #EEE; margin: auto;
+			text-align: center; padding: 30px; box-shadow: 0px 0px 90px 10px #707}
+		img{display: block; width: 200px; margin: auto; margin-top: 20px; margin-bottom: 30px;}
+		h1{margin: 0; margin-top: -10px; margin-bottom: 30px; text-shadow: 2px 2px 4px #707; color: white;
+			font-family: 'Yeon Sung', cursive;}
+		h2{margin-top: 100px; margin-bottom: 10px; text-shadow: 2px 2px 4px #707; color: white;
+			font-family: 'Yeon Sung', cursive;}
+		p{margin: 0; line-height: 1.8; color: #707}
+		body{margin: 0;}
+
+
+		/* 일러에선 행간, 웹에선 배수*/
+		/* display: block 이미지 박스로 //margin:auto 이미지 중앙으로 */ 
+		/* h1의 마진 0으로 만들어주고 body의 마진 0으로 만들어 줬다. */
+
+		.border{border: 3px solid purple;}
+		.circle{border-radius: 50%;}
+		.w100{width: 100px;}
+		.w200{width: 200px;}
+		.w300{width: 300px;}
+
+		.small{font-size: 12px;}
+		.center{text-align: center;}
+		.header{width: 400px; margin: auto; background: #555; height: 10px; padding: 30px; text-align: center;}
+		.footer{width:400px; margin: auto; background: #555; height: 30px; padding: 30px;}
+		.footer p{color: white;}
+
+		/* 클래스로 스타일링을 주로 하고, 상단의 코드는 기본으로 둠. */
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>10KM 완주 성공!</h1>
+	</div>
+	<div class="wrap">
+		<h1>*공식 러닝 기록이 생긴 날*</h1>
+		<p>2018 서울달리기대회 10K 마라톤 출전을 했었다. 첫 대회에서 생각보다 좋은 기록을 냈다. 아마도 첫 대회 버프와 응원 덕분이 아닐까? 10K에 45분이면 1KM를 달리는데 평균 4분 30초정도로 볼 수 있다 ^____^ (뿌듯)</p>
+		<img class="border w300" src="record.jpg">
+
+		<h2>대회 사진 구매</h2>
+		<p>공식 대회는 사진 기자님들이 촬영을 해주신다.</p>
+		<img class="border circle w100" src="jjal.jpg">
+		<p>사진을 구매하려면 돈을 내야한다.</p>
+		<img class="circle" src="money.jpg">
+		<p>전문 기자님이 찍어주는 사진의 가격은 과연 얼마일까...?</p>
+
+		<h2>4달라!!</h2>
+		<img class="border w300" src="444.jpg">
+	</div>
+	<div class="footer center small">
+		<p>Copyright&copy;2019 한경대학교 디자인학과 고병석
+		모든 권리 보유.</p>
+	</div>
+</body>
+</html>
